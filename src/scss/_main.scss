@@ -1,0 +1,163 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+nav, footer {
+  a {
+    color: $white;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: $light-gray;
+    }
+  }
+}
+
+strong {
+  color: $dark-blue;
+}
+
+section {
+  margin: 0;
+  padding: 1rem 0;
+}
+
+footer {
+  min-height: 2rem;
+  padding: 1.5rem;
+}
+
+.center {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.transparent {
+  background: none!important;
+}
+
+.primary-text {
+  color: $light-blue!important;
+}
+
+.black-text {
+  color: $black;
+}
+
+.margin-right {
+  margin-right: 1rem!important;
+}
+
+.dark-blue-bg {
+  background: $dark-blue!important;
+}
+
+.dark-blue-text {
+  color: $dark-blue;
+}
+
+.button.join-btn {
+  display: block;
+  min-width: 10rem;
+  margin: 2rem auto;
+}
+
+.logo {
+  width: 233px;
+  height: 65px;
+  background: url(../img/logo.png);
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.subsection {
+  padding: 3.5rem 0;
+  @media (max-width: 640px) {
+    padding: 2rem 0;
+  }
+}
+
+.hero {
+  color: $white;
+  padding: 2rem 2rem;
+  margin-bottom: 1rem;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  h1 {
+    margin: 5rem 0;
+  }
+  .button {
+    display: block;
+    margin: 5rem auto;
+    max-width: 15rem;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.dragdrop-section {
+  img {
+    margin-bottom: 0.4rem;
+  }
+}
+
+.feature-box {
+  &-img {
+    display: block;
+    margin: 0 auto 2rem auto;
+  }
+  &-title {
+    display: block;
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 1rem auto;
+  }
+  &-button {
+    display: block!important;
+    margin: 1rem auto!important;
+    width: 80%;
+  }
+}
+
+.price-box {
+  i {
+    font-size: 1.25rem;
+  }
+  ul {
+    list-style: none;
+    li {
+      margin-top: 1rem;
+      text-align: center;
+    }
+  }
+}
+
+.dropbox {
+  display: table;
+  width: 100%;
+  height: 25%;
+  background: #fff;
+  text-align: center;
+  &-text {
+    font-size: 0.7rem;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+.fa.fa-check-circle-o {
+  color: $dark-blue;
+}
+
+.fa.fa-times-circle-o {
+  color: $pink;
+}
+
